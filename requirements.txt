@@ -4,3 +4,7 @@ torch
 langchain-huggingface
 langchain_mlx
 mlx-lm
+langchain_community
+sentence-transformers
+faiss-cpu
+faiss-gpu
