@@ -7,4 +7,5 @@ mlx-lm
 langchain_community
 sentence-transformers
 faiss-cpu
-faiss-gpu
+chromadb
+langchain-chroma
