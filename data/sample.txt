@@ -1,0 +1,22 @@
+--- Artificial Intelligence and RAG Overview ---
+
+Retrieval-Augmented Generation (RAG) is a technique used to give Large Language Models (LLMs) 
+access to specific, private, or up-to-date information without the need for retraining. 
+
+Key Components of RAG:
+1. Document Loaders: These tools import data from various formats like PDF, TXT, or HTML.
+2. Text Splitters: Because LLMs have a limited "context window," long documents must be 
+   broken down into smaller chunks, usually between 500 to 1000 characters.
+3. Vector Embeddings: These are numerical representations of text. Models like 
+   sentence-transformers convert human language into high-dimensional vectors.
+4. Vector Databases: Specialized databases like ChromaDB or FAISS store these vectors 
+   and allow for "similarity searches" to find relevant chunks quickly.
+
+Why use Hugging Face?
+Hugging Face provides an open-source ecosystem (Transformers library) that allows 
+developers to run state-of-the-art models locally. This ensures data privacy and 
+removes reliance on expensive API calls.
+
+Common Local Models:
+- Embeddings: all-MiniLM-L6-v2 (lightweight and fast)
+- LLMs: Flan-T5, Llama-3, or Mistral-7B.
