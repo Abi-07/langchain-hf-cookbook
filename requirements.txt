@@ -4,8 +4,13 @@ torch
 langchain-huggingface
 langchain_mlx
 mlx-lm
-langchain_community
+langchain-community
 sentence-transformers
 faiss-cpu
 chromadb
 langchain-chroma
+ddgs
+langgraph
+duckduckgo-search>=6.0.0
+langchainhub
+langgraph-checkpoint-sqlite
